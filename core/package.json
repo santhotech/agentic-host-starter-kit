@@ -1,0 +1,14 @@
+{
+  "name": "@agentic-host/core",
+  "version": "0.1.0",
+  "description": "Framework-free host logic: talk to the backend, mount MCP Apps in a sandbox.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "2.0.3"
+  }
+}

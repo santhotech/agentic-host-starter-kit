@@ -1,0 +1,25 @@
+{
+  "name": "agentic-host-starter-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A starter kit for building your own AI chat host that renders MCP Apps.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "workspaces": [
+    "core",
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n server,web -c blue,green \"npm run dev -w server\" \"npm run dev -w web\"",
+    "build": "npm run build -w web",
+    "start": "npm run build && npm run start -w server",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test:e2e": "node scripts/e2e-hotels.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "playwright": "^1.56.1",
+    "typescript": "^5.9.3"
+  }
+}

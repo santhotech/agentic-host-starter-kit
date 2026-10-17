@@ -1,0 +1,13 @@
+{
+  "$comment": "Same shape as Claude Desktop's claude_desktop_config.json. Copy to mcp.json and edit. Use ${VAR} to pull secrets from .env.",
+  "mcpServers": {
+    "hotels": {
+      "command": "uv",
+      "args": ["run", "--python", "3.12", "--with", "mcp>=2.3,<3", "/ABSOLUTE/PATH/TO/hotels-server/app_server.py"]
+    },
+    "expenses": {
+      "url": "http://localhost:4000/mcp",
+      "headers": { "Authorization": "Bearer ${EXPENSES_TOKEN}" }
+    }
+  }
+}
