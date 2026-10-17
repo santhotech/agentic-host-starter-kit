@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TravelCo Hotel Explorer</title>
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<div id="app" class="app">
+  <header class="top">
+    <div class="brand"><span class="logo" aria-hidden="true"></span><span>TravelCo</span></div>
+    <div class="heading">
+      <h1 id="title">Finding hotels…</h1>
+      <p id="subtitle" class="muted"></p>
+    </div>
+    <button id="fullscreen" class="icon-btn" hidden title="Expand">⤢</button>
+  </header>
+
+  <section class="filters" aria-label="Filters">
+    <div class="chips" id="traveler" role="radiogroup" aria-label="Traveler type"></div>
+    <div class="filter-row">
+      <label class="slider">
+        <span>Min score <b id="minScoreVal">0</b></span>
+        <input type="range" id="minScore" min="7" max="9.6" step="0.1" value="7" />
+      </label>
+      <div class="seg" id="sort" role="radiogroup" aria-label="Sort">
+        <button data-v="score" class="on">Top rated</button>
+        <button data-v="popularity">Most reviewed</button>
+        <button data-v="price">Lowest price</button>
+      </div>
+      <label class="toggle"><input type="checkbox" id="biz" /><span class="track"></span>Business-friendly</label>
+    </div>
+  </section>
+
+  <main class="body">
+    <ol id="list" class="list" aria-live="polite"></ol>
+    <aside class="side">
+      <div class="panel map-panel">
+        <div class="panel-title">Where they are</div>
+        <svg id="map" viewBox="0 0 260 200" role="img" aria-label="Map of results"></svg>
+        <div class="legend muted"><span class="star">★</span> city center</div>
+      </div>
+      <div class="panel" id="shortlistPanel">
+        <div class="panel-title">Shortlist <span id="slCount" class="pill">0</span></div>
+        <ul id="shortlist" class="shortlist"><li class="muted empty">Tap ☆ on a hotel to save it here.</li></ul>
+        <button id="compare" class="btn primary block" disabled>Compare with Claude</button>
+      </div>
+    </aside>
+  </main>
+  <footer class="muted foot">Guest data: Kaggle “515K Hotel Reviews Data in Europe” (2015–2017). Scores out of 10.</footer>
+</div>
+<script>/*__JS__*/</script>
+</body>
+</html>

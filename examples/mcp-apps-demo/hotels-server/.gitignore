@@ -1,0 +1,5 @@
+hotels.db
+hotels.db-journal
+__pycache__/
+.venv/
+ui/node_modules/

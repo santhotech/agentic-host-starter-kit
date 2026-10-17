@@ -1,0 +1,172 @@
+{
+ "41": {
+  "hotel_name": "41",
+  "address": "41 Buckingham Palace Road Westminster Borough London SW1W 0PS United Kingdom",
+  "city": "London",
+  "location": {
+   "lat": 51.4981471,
+   "lng": -0.1436492
+  },
+  "average_score": 9.6,
+  "total_reviews": 244,
+  "business_trip_share": 0.091,
+  "traveler_mix": {
+   "Couple": 0.701,
+   "Solo traveler": 0.104,
+   "Group": 0.091,
+   "Family with young children": 0.052,
+   "Family with older children": 0.052
+  },
+  "popular_rooms": [
+   {
+    "room_type": "Executive King Room with Lounge Access",
+    "stays": 74
+   },
+   {
+    "room_type": "Luxury Suite Conservatory with Lounge Access",
+    "stays": 2
+   },
+   {
+    "room_type": "Junior Suite Split Level with Lounge Access",
+    "stays": 1
+   }
+  ],
+  "score_distribution": {
+   "5-7": 1,
+   "7-9": 3,
+   "9-10": 73
+  },
+  "recent_positives": [
+   "Extraordinarily attentive staff and 24hr snack options",
+   "Everything Staff fabulously friendly attentive Marvelous location near Buckingham Palace",
+   "Its central proximity close to all services and restaurants The staff were amazing the best anywhere in the world More than stars Complimentary treats from pantry and a wonderful breakfast best scrambled eggs ever had We will be back",
+   "Great location walking distance to many tourist spots Staff are friendly helpful and discreet Rooms are spacious in London standard Decor is mainly traditional British style with a slight modern touch for comfort",
+   "The staff were amazing They couldn t do enough for you and the added touch of roses and candles in our room was lovely"
+  ],
+  "recent_negatives": [
+   "Details of room Hard to get to plugs shower is like a flood on your head The staff should stay in the hotel rooms for a few nights to see how they could improve the rooms Desk chair legs are old won t move you trip over them Light bulbs out very old blow dryers for hair Small details I m only noting because they say they re a 5 star hotel Feels like less Did not like the hotel being so small Hotel is actually only on one floor The 5th floor NO real lobby or bar area Breakfast lunch dinner cocktails all served in executive lounge Small narrow halls to rooms Overall a bad value for the Will probably try a different hotel next time",
+   "Having stayed at many top hotels in London overall found this hotel a disappoint for all the rave reviews Room was very poor dark basic and the TV was really far away awkward angle from bed Also not given any sweets complimentary snacks like the description suggested No one informed us breakfast was complementary Also room service ordered was cold and croutons stale",
+   "no tea making facility in room very noisy could provide ear plugs as road sirens all night long"
+  ]
+ },
+ "Haymarket Hotel": {
+  "hotel_name": "Haymarket Hotel",
+  "address": "1 Suffolk Place Westminster Borough London SW1Y 4HX United Kingdom",
+  "city": "London",
+  "location": {
+   "lat": 51.5084595,
+   "lng": -0.1311382
+  },
+  "average_score": 9.6,
+  "total_reviews": 255,
+  "business_trip_share": 0.084,
+  "traveler_mix": {
+   "Couple": 0.632,
+   "Solo traveler": 0.168,
+   "Group": 0.042,
+   "Family with young children": 0.084,
+   "Family with older children": 0.074
+  },
+  "popular_rooms": [
+   {
+    "room_type": "Deluxe Room",
+    "stays": 38
+   },
+   {
+    "room_type": "Superior Room",
+    "stays": 20
+   },
+   {
+    "room_type": "Luxury Room",
+    "stays": 16
+   },
+   {
+    "room_type": "Luxury Junior Suite",
+    "stays": 11
+   },
+   {
+    "room_type": "Deluxe Junior Suite",
+    "stays": 6
+   }
+  ],
+  "score_distribution": {
+   "7-9": 11,
+   "9-10": 83,
+   "under 5": 1
+  },
+  "recent_positives": [
+   "The staff were excellent the location is spot on in theatre district the rooms were lovely the air con died in the unusually hot day in London so they moved us to another room and offered refreshments as compensation The best We will return hopefully",
+   "Very clean and spacious Thank you for the upgrade",
+   "Everything service was excellent as was the food within Brumus",
+   "Excellent hotel a true five star hotel we enjoyed the stay",
+   "Staff Service is always personal and attentative"
+  ],
+  "recent_negatives": [
+   "Bed was too high staff attitude very condescending",
+   "on tv no german news programs swimming pool not enough heated and around the pool no possibility to lay after swimming on a deck chair or a lie there are only normal chairs and 2 sofas before the bar on breakfast grilled toast often black burnt but for all that not more hot",
+   "I did mention this to the management on my departure regarding the unacceptable noise that emanated from the room above From about 5 pm onwards to well after 10 30 it sounded as if a group of acrobates were practicing their act Running and jumping One evening I rang up reception to the unacceptable noise from the above floor They had no explanation of the of what was happening It occurred every evening that I stayed at the hotel",
+   "It would be nice if the hotel could put up a more noticeable sign that we could see from the main road It wasn t fun for an 83 year old lady to have to walk back and forth just to find the entrance Also personally if the swimming pool isn t so functional please don t advertise about it To me it was like you re cheating the customers To have a proper pool you need to have a proper changing room with a shower for both sexes Guests should not be expected to change in the toilet",
+   "Renovation works being carried out in the room above very noisy had to ring and complain as it sounded like they were about to knock through into our room They stopped the work this was the afternoon we checked in However the next morning we could hear people going in and out of the room from 5 30am No in room tea or coffee facilities which is a shame as we didn t want to have to call down just for a cup of tea"
+  ]
+ },
+ "The Soho Hotel": {
+  "hotel_name": "The Soho Hotel",
+  "address": "4 Richmond Mews Westminster Borough London W1D 3DH United Kingdom",
+  "city": "London",
+  "location": {
+   "lat": 51.5139805,
+   "lng": -0.1337948
+  },
+  "average_score": 9.5,
+  "total_reviews": 385,
+  "business_trip_share": 0.137,
+  "traveler_mix": {
+   "Couple": 0.667,
+   "Solo traveler": 0.137,
+   "Group": 0.094,
+   "Family with young children": 0.06,
+   "Family with older children": 0.043
+  },
+  "popular_rooms": [
+   {
+    "room_type": "Superior Room",
+    "stays": 37
+   },
+   {
+    "room_type": "Luxury Room",
+    "stays": 36
+   },
+   {
+    "room_type": "Deluxe Room",
+    "stays": 22
+   },
+   {
+    "room_type": "Luxury Junior Suite",
+    "stays": 13
+   },
+   {
+    "room_type": "Deluxe Junior Suite",
+    "stays": 6
+   }
+  ],
+  "score_distribution": {
+   "5-7": 1,
+   "7-9": 7,
+   "9-10": 108,
+   "under 5": 1
+  },
+  "recent_positives": [
+   "Staff warm and friendly excellent Food was fabulous",
+   "We received special treatment for my wife s birthday Substantial room upgrade and complimentary champagne and chocolate gifts A very enjoyable stay as always",
+   "Beautiful hotel well designed so clean and no details missed The gym was the best hotel gym I have used The front desk upgraded us to a lovely room with a balcony overlooking London and surprised us with champagne and sweets as it was the last night of our honeymoon It was a great experience my husband and I absolutely loved our stay and would stay at the Soho hotel next time we are in London",
+   "EVERYTHING My room was absolutely incredible Loved the outdoor terrace the heavenly bed and the incredible bathroom with TV in tub Also the breakfast was so delicious and the bar makes the most divine cocktails Can t wait to come back to London just so I can stay here again",
+   "The service was exactly as expected for a 5 Star hotel it was outstanding we have stayed in many 5 star hotels and this is definitely at the top of the list the staff were courteous and wonderful the room was so quiet and the bed out of this world"
+  ],
+  "recent_negatives": [
+   "The room was too small and the windows was facing a wall",
+   "Extra charges for room service breakfast items despite having booked a bed breakfast room rate notwithstanding tray charge Beware there is a GBP limit on breakfast food delivered to the room First room located right next to hotel building works which we were not given any prior notice about either on booking or at check in Very noisy and disturbing on a Saturday morning but did get transferred to a quieter room",
+   "Had to wait an hour for the room to be ready not ready until 3pm which was difficult with young kids who had just travelled 3 hours in a car",
+   "the room was the very drab and dated Nothing like what you see on their website The room on all websites look modern and alive with colour I hated my room as it was dark green and tan very depressing room to sleep in"
+  ]
+ }
+}

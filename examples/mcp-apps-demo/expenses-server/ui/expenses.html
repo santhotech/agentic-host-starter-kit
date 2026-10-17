@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ExpenseCo</title>
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brand"><span class="logo" aria-hidden="true">$</span><span>ExpenseCo</span></div>
+    <div class="who"><span id="greeting">Loading…</span><span id="sub" class="muted"></span></div>
+  </header>
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="mine" class="on">My expenses <span class="count" id="mineCount"></span></button>
+    <button role="tab" data-tab="approvals">To approve <span class="badge" id="pendingCount"></span></button>
+  </nav>
+  <section id="mine" class="panel"></section>
+  <section id="approvals" class="panel" hidden></section>
+  <footer class="foot muted" id="policy"></footer>
+</div>
+<script>/*__JS__*/</script>
+</body>
+</html>
